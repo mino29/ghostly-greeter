@@ -39,7 +39,7 @@ git clone https://github.com/mino29/ghostly-greeter.git
 paru -S --needed --noconfirm lightdm \
                             lightdm-slick-greeter \
                             lightdm-gtk-greeter \
-                            lightdm-settings \
+                            lightdm-settings
 ```
 
 Anyways, lightdm and lightdm-slick-greeter are essential for this to work, but
