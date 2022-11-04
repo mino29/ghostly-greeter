@@ -108,7 +108,7 @@ PSD file that I used to make this.
 You can find the .psd file in the source folder
 `ghostly-greeter-src.psd`
 
-Here the layer structure:
+Here's the layer structure:
 
 ![Photoshop file](./screenshots/psd-mods.png)
 
@@ -116,6 +116,10 @@ The only things that you might need to tweak are: loginbox and
 canvas/background size.
 
 And also maybe the eyeball and cat position.
+
+`art-1` and `art-2` groups are my previous attempts to use login box creatively, I still
+like them, but I think the little ghost one is a little more interesting and
+fits my whole i3 rice perfectly. You can see for yourself.
 
 If you don't like all my config, then I'd suggest using lightdm-setting (GUI)
 to make easy adjustment.
