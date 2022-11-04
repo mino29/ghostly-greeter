@@ -1,10 +1,10 @@
 # ghostly-greeter for lightdm
 
-## Overview
+##📺 Overview
 
 **Overview**
-> This is how it looks like when working
 
+> This is how it looks like when working
 
 ![Overview](./screenshots/overview.png)
 
@@ -15,7 +15,7 @@ But don't use this screenshot though. I'll show you how next.
 If you screen is not 1080p, then you might have to look into the customization
 section and scale a little bit yourself.
 
-## Installation
+##🔧 Installation
 
 Assuming you already have a fully functioning linux distro.
 You probably using gdm (Gnome) or sddm (KDE as your display manager/login manager.
@@ -39,15 +39,19 @@ paru -S --needed --noconfirm lightdm \
                             lightdm-gtk-greeter \
                             lightdm-settings \
 ```
+
 Anyways, lightdm and lightdm-slick-greeter are essential for this to work, but
 I suggest you install them all just in case.
 
 3. disable your existing display manager (relax it's just a login screen)
-If you on gnome do:
+   If you on gnome do:
+
 ```bash
 sudo systemctl disable gdm
 ```
+
 If you on KDE do:
+
 ```bash
 sudo systemctl disable sddm
 ```
@@ -63,12 +67,16 @@ sudo systemctl enable lightdm
 ```bash
 sudo vim /etc/lightdm/lightdm.conf
 ```
+
 Find `#greeter-session=` under [Seat:*]
 It's usually commented out, just uncomment and change it to:
+
 ```
 greeter-session=lightdm-slick-greeter
 ```
+
 save it, and DON'T CHANGE ANYTHING ELSE!
+
 > Unless you know what you are doing, in that case, go nuts.
 
 5. OK, now we cd into the cloned repo and copy paste the files that I prepared.
@@ -79,11 +87,12 @@ sudo cp -r lightdm /etc
 ```
 
 6. reboot and voila
+
 ```bash
 sudo systemctl reboot
 ```
 
-## Customization
+## 🎨Customization
 
 This works perfectly on my 1080p machine.
 I only own 1080p screens, so I don't know about your particular screen setup.
@@ -109,6 +118,7 @@ otherwise it won't work and I don't know how to solve it.
 ```bash
 sudo lightdm-settings
 ```
+
 And change whatever is available.
 
 You can preview the change using:
@@ -121,8 +131,8 @@ In order to take effect, you do need to reboot your system though.
 
 Hope you enjoyed this thing that I made.
 
-## Credits
+## 💌Credits
 
-[Giant ghost]()
-[Black cat]()
-[Eye ball]()
+- [Giant ghost]()
+- [Black cat]()
+- [Eye ball]()
