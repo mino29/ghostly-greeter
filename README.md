@@ -46,7 +46,8 @@ Anyways, lightdm and lightdm-slick-greeter are essential for this to work, but
 I suggest you install them all just in case.
 
 3. disable your existing display manager (relax it's just a login screen)
-   If you on gnome do:
+
+If you on gnome do:
 
 ```bash
 sudo systemctl disable gdm
