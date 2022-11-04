@@ -92,7 +92,7 @@ PSD file that I used to make this.
 
 Here the layer structure:
 
-![Photoshop file](./screenshos/psd-mods.png)
+![Photoshop file](./screenshots/psd-mods.png)
 
 The only things that you might need to tweak are: loginbox and
 canvas/background size.
