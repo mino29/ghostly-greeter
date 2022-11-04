@@ -103,6 +103,9 @@ I only own 1080p screens, so I don't know about your particular screen setup.
 I want you guys to enjoy this theme as much as I do, so I'm sharing the Original
 PSD file that I used to make this.
 
+You can find the .psd file in the source folder
+`ghostly-greeter-src.psd`
+
 Here the layer structure:
 
 ![Photoshop file](./screenshots/psd-mods.png)
