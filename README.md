@@ -136,6 +136,6 @@ Hope you enjoyed this thing that I made.
 
 ## 💌Credits
 
-- [Giant ghost]()
-- [Black cat]()
-- [Eye ball]()
+- [Giant ghost](https://www.flaticon.com/free-icon/ghost_1234844)
+- [Black cat](https://www.flaticon.com/free-icon/black-cat_3504474)
+- [Eye ball](https://www.flaticon.com/free-icon/eye-ball_5839804)
