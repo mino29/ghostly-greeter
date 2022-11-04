@@ -1,4 +1,6 @@
 # ghostly-greeter for lightdm
+> I made this to go along with my arch-i3 rice
+🔎[Dotfiles are here](https://github.com/mino29/arch-i3)
 
 ##📺 Overview
 
