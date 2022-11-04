@@ -7,13 +7,13 @@
 
 **Overview**
 
-> This is how it looks like when working
+> This is how it looks like
 
 ![Overview](./screenshots/overview.png)
 
 Essentially it's just a wallpaper, but a special one.
 If your screen is 1080p, just follow the installation, you'll be set.
-But don't use this screenshot though. I'll show you how next.
+But don't use this particular screenshot though. I'll show you how next.
 
 If you screen is not 1080p, then you might have to look into the customization
 section and scale a little bit yourself.
@@ -21,7 +21,7 @@ section and scale a little bit yourself.
 ## 🔧 Installation
 
 Assuming you already have a fully functioning linux distro.
-You probably using gdm (Gnome) or sddm (KDE as your display manager/login manager.
+You probably using gdm (Gnome) or sddm (KDE) as your display manager/login manager.
 
 > Unless you are using ly, then why are you here? XD
 
@@ -47,6 +47,8 @@ Anyways, lightdm and lightdm-slick-greeter are essential for this to work, but
 I suggest you install them all just in case.
 
 3. disable your existing display manager (relax it's just a login screen)
+
+Just don't reboot during step 3-5, no worries.
 
 If you on gnome do:
 
@@ -83,14 +85,14 @@ save it, and DON'T CHANGE ANYTHING ELSE!
 
 > Unless you know what you are doing, in that case, go nuts.
 
-5. OK, now we cd into the cloned repo and copy paste the files that I prepared.
+6. OK, now we cd into the cloned repo and copy paste the files that I prepared.
 
 ```bash
 cd ghostly-greeter
 sudo cp -r lightdm /etc
 ```
 
-6. reboot and voila
+7. reboot and voila
 
 ```bash
 sudo systemctl reboot
