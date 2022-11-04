@@ -1,8 +1,9 @@
 # ghostly-greeter for lightdm
+
 > I made this to go along with my arch-i3 rice
 🔎[Dotfiles are here](https://github.com/mino29/arch-i3)
 
-##📺 Overview
+## 📺 Overview
 
 **Overview**
 
@@ -17,7 +18,7 @@ But don't use this screenshot though. I'll show you how next.
 If you screen is not 1080p, then you might have to look into the customization
 section and scale a little bit yourself.
 
-##🔧 Installation
+## 🔧 Installation
 
 Assuming you already have a fully functioning linux distro.
 You probably using gdm (Gnome) or sddm (KDE as your display manager/login manager.
